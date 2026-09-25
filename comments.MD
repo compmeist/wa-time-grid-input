@@ -23,7 +23,7 @@
  placeholder, size, appearance, pill, with-clear, required, disabled,
  readonly, name/value form participation, and input/change events.
 
- Differences from the examples (intentional):
+ Caveats:
   - No minute fine-tune slider: the brief asks for the compact hour +
     minute tile grid only.
   - Tiles are native <button> elements styled with WA tokens instead of
@@ -31,4 +31,6 @@
     dependency inside the shadow root).
   - Picking an hour keeps the popup open so a minute can follow; picking
     a minute completes the time and closes the popup.
+  - Popup happens below the input, regardless if visible.
+
 ```
