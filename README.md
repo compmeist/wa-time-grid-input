@@ -4,6 +4,8 @@ AM hours in the first two rows, PM hours in the
         next two, minute tiles in their own right-hand column - the same
         layout as the legacy jQuery UI Timepicker Add-on written by the community several years ago.
 
+This version uses Web Awesome classes for styling and layout, as much as possible.
+
 Usage:
 ```
 <wa-time-grid-input
