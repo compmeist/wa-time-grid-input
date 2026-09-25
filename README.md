@@ -1,4 +1,4 @@
-## Lit 3 grid time picker. Compatible with Web Awesome 3.  
+## Native web component grid time picker. Compatible with Web Awesome 3.  
 
 AM hours in the first two rows, PM hours in the
         next two, minute tiles in their own right-hand column - the same
